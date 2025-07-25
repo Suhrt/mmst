@@ -63,4 +63,4 @@
         </div>
     </TwoColumnLayout>
 </div>
-<div><h1>Built using svelte 5 & deployed via cloudflare pages</h1></div>
+<div><h1>Built using svelte 5 & deployed via cloudflare pages. Yay</h1></div>
