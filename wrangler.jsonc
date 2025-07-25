@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "mmst",
+	"name": "mmst_website",
 	"compatibility_date": "2025-07-25",
 	"pages_build_output_dir": ".svelte-kit/cloudflare",
 	"observability": {
