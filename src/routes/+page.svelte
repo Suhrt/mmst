@@ -6,7 +6,7 @@
     let showCaption = $state(false);
 </script>
 
-<div class="w-full md:h-screen bg-red-800 text-white">
+<div class="w-full md:h-screen bg-black text-white">
     <TwoColumnLayout>
         <div slot="left" class="flex flex-col justify-center items-start">
             <div>
@@ -42,7 +42,7 @@
                 <div class="flex flex-row w-full absolute bottom-0 left-0">
                     <button
                         onclick={() => {showCaption = !showCaption;}}
-                        class="group z-10 bg-white p-2 hover:bg-transparent text-yellow-500 h-10 w-10 cursor-pointer duration-1000 "
+                        class="group z-10 p-2 bg-transparent text-[#FFEBCD] h-10 w-10 cursor-pointer duration-1000 "
                         aria-label="Toggle image caption"
                     >
                         <span class="opacity-100">&#10059;</span>
@@ -52,7 +52,7 @@
                         <div
                             class="bg-white text-black p-1 w-full"
                         >
-                            Doctors in CAD classes - MMST 2024 Batch
+                            Batch of MMST 2024
                         </div>
                     {/if}
                 </div>
